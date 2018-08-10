@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+//noinspection GroovyMissingReturnStatement
+android {
+    compileSdkVersion androidCompileSdkVersion
+    buildToolsVersion androidBuildToolsVersion
+    defaultConfig {
+        applicationId androidApplicationId
+        minSdkVersion androidMinSdkVersion
+        targetSdkVersion androidTargetSdkVersion
+        versionCode androidVersionCode
+        versionName androidVersionName
+        multiDexEnabled true
+        //dataBinding.enabled = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.github.apl-devs:appintro:v4.2.2'
+    implementation 'me.tankery.lib:circularSeekBar:1.1.3'
+    implementation supportDependencies.multiDex
+    implementation supportDependencies.appCompat
+    implementation supportDependencies.cardview
+    implementation supportDependencies.design
+    implementation supportDependencies.ads
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+}

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Eye Care Blue Light Filter</string>
+    <string name="banner">Dark -> Enabling colorless filters further reduces brightness \ n • Everyday -> Enabling warm-color filters is resistant to blue light</string>
+    <string name="brightness">SCREEN BRIGHTNESS</string>
+    <string name="transparency">INTENSITY</string>
+    <string name="filter_color">Filter color</string>
+    <string name="keep_screen_on">The screen is always on</string>
+    <string name="is_off">Eye Protector inactive</string>
+    <string name="is_on">Eye Protector is activated</string>
+    <string name="restore">Reset</string>
+    <string name="auto_brightness">automatic</string>
+    <string name="about">on</string>
+    <string name="positive">determine</string>
+    <string name="color_temperature">COLOR TEMPERATURE</string>
+    <string name="toggle_notification_bar">NOTIFICATION BAR</string>
+    <string name="custom_color_temperature">CUSTOM COLOR </string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">FINISH!</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+
+    <string name="slide_1_title">What is Blue Light?</string>
+    <string name="slide_1_desc">The color temperature of blue light is high (over 5000k), and it will keep people sober. Blue light is very short and visible wavelenght between 380-550.</string>
+
+    <string name="slide_2_title">Harms of Blue Light</string>
+    <string name="slide_2_desc">Scientific studies show blue light will inhibit the secretion of melatonin, a hormone that influences chrcadian rhythms.</string>
+    <string name="text_yes">Yes</string>
+    <string name="rate_us">Rate us</string>
+    <string name="text_no">No</string>
+    <string name="admob_banner_ad_id">ca-app-pub-6412217023250030/+8835154176</string>
+    <string name="admob_interstitial_ad_id">ca-app-pub-6412217023250030/+6140530461</string>
+    <string name="admob_exit_interstitial_ad_id">ca-app-pub-6412217023250030/+6947357437</string>
+    <string name="exit_dialog_title">Do you want to Exit ?</string>
+    <string name="notification_detail">Continuou Eye protector to avoid sightness problem</string>
+
+</resources>
